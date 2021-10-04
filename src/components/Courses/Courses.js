@@ -5,12 +5,17 @@ import Course from '../Course/Course';
 import './Courses.css'
 
 const Courses = () => {
+
     const [courses, setCourses] = useState([]);
+
+    // fetch data from fake db 
+
     useEffect(() => {
         fetch('./courses.JSON')
             .then(res => res.json())
             .then(data => setCourses(data))
-    }, [])
+    }, []);
+
     return (
         <div>
             <div className="container-fluid courses">
@@ -20,7 +25,6 @@ const Courses = () => {
             </div>
 
             <div className="container">
-
                 <div className="row row-cols-1 row-cols-md-3 g-4 py-5">
                     {
                         courses.map(course => <Course

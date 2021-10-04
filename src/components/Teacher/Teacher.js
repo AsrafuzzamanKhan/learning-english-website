@@ -2,8 +2,10 @@ import React from 'react';
 
 const Teacher = (props) => {
     const { name, teach, img } = props.teacher;
+
     return (
         <div>
+            {/* single card  */}
 
             <div className="col">
                 <div className="card h-100 border">
@@ -13,9 +15,7 @@ const Teacher = (props) => {
                         <p className="card-text"> <span className="fw-bold">Teach: </span> {teach}</p>
                     </div>
                 </div>
-
             </div>
-
         </div>
     );
 };

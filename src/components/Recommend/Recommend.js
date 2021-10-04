@@ -4,6 +4,8 @@ const Recommend = (props) => {
     const { name, price, img, description, duration, instructor } = props.recommend;
     return (
         <div>
+            {/* single card  */}
+
             <div className="col">
                 <div className="card home-card shadow-lg">
                     <img src={img} className="card-img-top p-2 home-cardImg" alt="..." />
