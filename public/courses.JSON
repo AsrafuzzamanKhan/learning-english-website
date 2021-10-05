@@ -6,7 +6,7 @@
         "duration": "6 hours",
         "instructor": "Anthony Kelleher",
         "price": "14$",
-        "description": "Learn English grammar through lectures and listening and speaking practice, so you can confidently speak English."
+        "description": "Learn English grammar through lectures and listening and speaking practice."
     },
     {
         "id": 2,
@@ -78,6 +78,6 @@
         "duration": "5.5 hours",
         "instructor": "AbcEdu",
         "price": "13$",
-        "description": "Learn German with a Native Teacher. Complete Course - German for Beginners (A1,A2,A2+) German Grammar."
+        "description": "Learn German with a Native Teacher. Complete Course."
     }
 ]
