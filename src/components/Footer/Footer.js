@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
                 <hr />
                 <div className='pb-3'>
-                    <small>COPYRIGHTS © 2021 <span className="text-danger">LEARNING LANGUAGE</span>  ALL RIGHTS RESERVED.</small>
+                    <small>COPYRIGHTS © 2023 <span className="text-danger">LEARNING LANGUAGE</span>  ALL RIGHTS RESERVED.</small>
                 </div>
             </div>
         </div>
